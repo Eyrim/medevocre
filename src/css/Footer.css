@@ -1,0 +1,27 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffc3e6;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+}
+
+footer > #octocat-carrier {
+    justify-self: center;
+    align-self: center;
+    object-fit: cover;
+
+    margin-left: 10%;
+}
+
+footer > #cat-carrier {
+    white-space: pre-wrap;
+    margin-right: 10%;
+
+    font-size: 0.5rem;
+    justify-self: end;
+}
